@@ -1,10 +1,12 @@
 
-#Clone:
+## Clone ##
+```bash
+git clone --bare https://github.com/toukashishigaya/dotfiles.git $HOME/.dotfiles
+```
 
-git clone --bare https://github.com/USERNAME/dotfiles.git $HOME/.dotfiles
-
-
-#Command later
+## Command ##
+```bash
 dotfiles status
 dotfiles add <files>
 dotfiles commit -m "Message"
+```
