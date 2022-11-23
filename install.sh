@@ -7,8 +7,8 @@ rm go-pd* &&
 mv transfer wetransfer &&
 chmod +x wetransfer pd/go-pd &&
 sudo install wetransfer pd/go-pd /usr/local/bin && 
-sudo apt install ./timer_1.1.0_amd64.deb &&
-git clone https://github.com/akhilnarang/scripts
+sudo apt install ~/timer_1.1.0_amd64.deb &&
+git clone https://github.com/akhilnarang/scripts &&
 ./scripts/setup/android_build_env.sh && 
 rm -rf wetransf* scri* pd* timer_* &&
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' &&
